@@ -1,0 +1,26 @@
+{
+  "name": "spotify-login",
+  "version": "1.0.0",
+  "description": "Passport example for Spotify",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node index-old.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "node-fetch": "^3.2.3",
+    "passport": "^0.4.0",
+    "passport-spotify": "^1.0.1",
+    "puppeteer": "^13.6.0",
+    "querystring": "~0.2.0",
+    "request": "~2.83.0",
+    "spotify-web-api-node": "^5.0.2"
+  },
+  "author": "Matias Pruyas",
+  "license": "ISC"
+}
