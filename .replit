@@ -1,5 +1,5 @@
-entrypoint = "index-old.js"
-run = [ "npm", "run", "test"]
+entrypoint = "app.js"
+run = [ "npm", "run", "start"]
 [interpreter]
 command = [
     "prybar-nodejs",

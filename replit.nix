@@ -8,10 +8,11 @@ in {
         pkgs.nodePackages.typescript-language-server
         pkgs.nodePackages.yarn
         pkgs.replitPackages.jest
+    pkgs.neovim
     pkgs.gh
     pkgs.nnn
     pkgs.ranger
-		pkgs.chromium
+    pkgs.chromium
     pkgs.fish
     pkgs.bash_5
     pkgs.tldr
